@@ -22,7 +22,7 @@ This Python script automates the process of checking for available ITV appointme
 - `MONTH`: The month for which appointments are being checked.
 - `PLATE_NUMBER`: The vehicle's plate number.
 
-## Run
+## 🚀 Run
 To run the script, execute the following command in your terminal:
 ```
 python itv_checker.py
