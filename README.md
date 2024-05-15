@@ -27,6 +27,5 @@ To run the script, execute the following command in your terminal:
 python sitval_notifyer.py
 ```
 
-csharp
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
