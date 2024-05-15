@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 SINCH_SERVICE_PLAN_ID = "SINCH_SERVICE_PLAN_ID"
 SINCH_API_TOKEN = "SINCH_API_TOKEN"
@@ -39,7 +41,7 @@ def send_sms(message):
 
 while True:        
     # Start a new instance of Chrome WebDriver and navigate website
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get('https://www.sitval.com/#/cita_previa')
 
     try:
