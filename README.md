@@ -9,8 +9,7 @@ This Python script automates the process of checking for available ITV appointme
 ## 💾 Installation
 1. Clone the repository.
 2. Install the required Python packages: `pip install -r requirements.txt`
-3. Download and install Chrome WebDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
-4. Create a free account into [Sinch](https://www.sinch.com/).
+3. Create a free account into [Sinch](https://www.sinch.com/).
 
 ## ⚙️ Configuration
 - `SINCH_SERVICE_PLAN_ID`: Your Sinch service plan ID.
