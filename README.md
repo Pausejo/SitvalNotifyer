@@ -24,7 +24,7 @@ This Python script automates the process of checking for available ITV appointme
 ## 🚀 Run
 To run the script, execute the following command in your terminal:
 ```
-python itv_checker.py
+python sitval_notifyer.py
 ```
 
 csharp
